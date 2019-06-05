@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		E29E874C22A7BC4D003C62F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E874B22A7BC4D003C62F4 /* AppDelegate.swift */; };
 		E29E874E22A7BC4D003C62F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E874D22A7BC4D003C62F4 /* SceneDelegate.swift */; };
-		E29E875022A7BC4D003C62F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E874F22A7BC4D003C62F4 /* ContentView.swift */; };
+		E29E875022A7BC4D003C62F4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E874F22A7BC4D003C62F4 /* Page.swift */; };
 		E29E875222A7BC4F003C62F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29E875122A7BC4F003C62F4 /* Assets.xcassets */; };
 		E29E875522A7BC4F003C62F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29E875422A7BC4F003C62F4 /* Preview Assets.xcassets */; };
 		E29E875822A7BC4F003C62F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29E875622A7BC4F003C62F4 /* LaunchScreen.storyboard */; };
+		E29E876122A7C51D003C62F4 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E876022A7C51D003C62F4 /* Cell.swift */; };
+		E29E876322A7E136003C62F4 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E876222A7E136003C62F4 /* Row.swift */; };
+		E29E876522A7E67C003C62F4 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E876422A7E67C003C62F4 /* ListModel.swift */; };
+		E29E876722A7E730003C62F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E876622A7E730003C62F4 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E29E874822A7BC4D003C62F4 /* cd-switft-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd-switft-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E874B22A7BC4D003C62F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E29E874D22A7BC4D003C62F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E29E874F22A7BC4D003C62F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E29E874F22A7BC4D003C62F4 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		E29E875122A7BC4F003C62F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E29E875422A7BC4F003C62F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E29E875722A7BC4F003C62F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E29E875922A7BC4F003C62F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29E875F22A7C01E003C62F4 /* cd-switft-ui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "cd-switft-ui.entitlements"; sourceTree = "<group>"; };
+		E29E876022A7C51D003C62F4 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		E29E876222A7E136003C62F4 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		E29E876422A7E67C003C62F4 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		E29E876622A7E730003C62F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +65,14 @@
 		E29E874A22A7BC4D003C62F4 /* cd-switft-ui */ = {
 			isa = PBXGroup;
 			children = (
+				E29E875F22A7C01E003C62F4 /* cd-switft-ui.entitlements */,
 				E29E874B22A7BC4D003C62F4 /* AppDelegate.swift */,
+				E29E876422A7E67C003C62F4 /* ListModel.swift */,
 				E29E874D22A7BC4D003C62F4 /* SceneDelegate.swift */,
-				E29E874F22A7BC4D003C62F4 /* ContentView.swift */,
+				E29E876622A7E730003C62F4 /* ContentView.swift */,
+				E29E874F22A7BC4D003C62F4 /* Page.swift */,
+				E29E876222A7E136003C62F4 /* Row.swift */,
+				E29E876022A7C51D003C62F4 /* Cell.swift */,
 				E29E875122A7BC4F003C62F4 /* Assets.xcassets */,
 				E29E875622A7BC4F003C62F4 /* LaunchScreen.storyboard */,
 				E29E875922A7BC4F003C62F4 /* Info.plist */,
@@ -147,8 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29E874C22A7BC4D003C62F4 /* AppDelegate.swift in Sources */,
+				E29E876122A7C51D003C62F4 /* Cell.swift in Sources */,
+				E29E876722A7E730003C62F4 /* ContentView.swift in Sources */,
 				E29E874E22A7BC4D003C62F4 /* SceneDelegate.swift in Sources */,
-				E29E875022A7BC4D003C62F4 /* ContentView.swift in Sources */,
+				E29E876522A7E67C003C62F4 /* ListModel.swift in Sources */,
+				E29E876322A7E136003C62F4 /* Row.swift in Sources */,
+				E29E875022A7BC4D003C62F4 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,17 +302,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "cd-switft-ui/cd-switft-ui.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "cd-switft-ui/Preview\\ Content";
 				DEVELOPMENT_TEAM = QY2CZZWBU6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "cd-switft-ui/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "canaldigital.cd-switft-ui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +326,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "cd-switft-ui/cd-switft-ui.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "cd-switft-ui/Preview\\ Content";
 				DEVELOPMENT_TEAM = QY2CZZWBU6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "cd-switft-ui/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "canaldigital.cd-switft-ui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
